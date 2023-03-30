@@ -42,28 +42,25 @@ header h1 {
     font-size: 40px;
 }
 
-
 figure {
    
     margin-bottom: 50px;
     height: 250px;
     width: 100%;
+    padding-right: 50px;
     display: flex;
     justify-content: flex-end;
-    /* height: 40vh; */
-
 }
 
 .background-wood {
     background-image: url(/assets/images/wood-background.jpg);
-    width: 100%;
+    
     background-size: cover;
     background-position: center;
 
 }
 
 #mtb {
-    /* margin-right: 50px; */
     padding-right: 50px;
 }
 
@@ -92,45 +89,74 @@ main {
     padding-bottom: 30px;
 }
 
-#filler-project-1 {
+#filler-project-1, #filler-project-2, #filler-project-3, #filler-project-4, #filler-project-5  {
     padding: 20px 30px;
     margin-bottom: 20px;
-    background-color: var(--denim-blue);
-}
-#filler-project-2 {
-    padding: 20px 30px;
-    margin-bottom: 20px;
-    background-color: var(--denim-blue);
-}
-#filler-project-3 {
-    padding: 20px 30px;
-    margin-bottom: 20px;
-    background-color: var(--denim-blue);
-}
-#filler-project-4 {
-    padding: 20px 30px;
-    margin-bottom: 20px;
-    background-color: var(--denim-blue);
-}
-#filler-project-5 {
-    padding: 20px 30px;
-    margin-bottom: 0px;
+    padding-bottom: 200px;
     background-color: var(--denim-blue);
 }
 
 #column-2-contact {
     text-align: center;
     padding-bottom: 55px;
-    /* display: flex; */
 }
 .column-2 a {
 
     margin-top: 20px;
     margin-left: 24px;
     font-size: 30px;
-    /* align-items:center;
-    justify-content: center; */
+
+}
+
+#filler-project-1 a img, #filler-project-2 a img, #filler-project-3 a img, #filler-project-4 a img, #filler-project-5 a img {
+    width: 100%;
+    max-width: 400px;
+    float: right;
 }
 
 
 
+@media only screen and (max-width: 992px) {
+    /* Set the max-height of the figure and mtb to 30% of the screen height */
+    figure {
+      max-height: 20vh;
+    }
+  
+    .mtb {
+      max-height: 10vh;
+    }
+  }
+ 
+  @media only screen and (max-width: 600px) {
+    /* Set the max-height of the figure and mtb to 30% of the screen height */
+    figure {
+      max-height: 10vh;
+    }
+  
+    .mtb {
+      max-height: 5vh;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 20px; /* change the font size to 20px */
+    }
+  }
+
+  @media screen and (max-width: 728px) {
+    header h1 {
+      padding: 0px; /* change the font size to 20px */
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    a {
+      font-size: 16px;
+    }
+  }

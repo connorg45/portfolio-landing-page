@@ -72,10 +72,10 @@ figure {
 }
 
 .column-2 {
-    border-left: solid black 2px;
     width: 75%;
     float: right;
     padding-left: 20px;
+    border-left: 2px solid black
 }
 
 main {
@@ -124,36 +124,95 @@ main {
     }
   }
  
-  @media only screen and (max-width: 600px) {
-    figure {
-      max-height: 10vh;
-    }
+@media only screen and (max-width: 600px) {
+  figure {
+    max-height: 10vh;
+  }
   
-    .mtb {
-      max-height: 5vh;
-    }
-  }
+  .mtb {
+    max-height: 5vh;
+  }}
 
-  @media screen and (max-width: 600px) {
-    h1 {
-      font-size: 20px; /* change the font size to 20px */
-    }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
   }
+}
 
-  @media screen and (max-width: 728px) {
-    header h1 {
-      padding: 0px; /* change the font size to 20px */
-    }
+@media screen and (max-width: 728px) {
+  header h1 {
+    padding: 0px; 
   }
+}
 
-  @media only screen and (max-width: 600px) {
-    header {
-      padding: 10px;
-    }
-    h1 {
-      font-size: 24px;
-    }
-    a {
-      font-size: 16px;
-    }
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px;
   }
+  h1 {
+    font-size: 24px;
+  }
+  a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column-1, .column-2 {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column-1 {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .column-2 {
+    text-align: center;
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #filler-project-1, #filler-project-2, #filler-project-3, #filler-project-4, #filler-project-5 {
+    padding-bottom: 37px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  #screen-resize {
+    font-size: 27px;
+    line-height: normal;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  p { 
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #nav-resize a {
+    padding:5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #column-2-contact { 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: none;
+  }
+}

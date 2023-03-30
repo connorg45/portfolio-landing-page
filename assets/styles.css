@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-silver: #F2F2F2;
+    --denim-blue: #8596A6;
+    --light-grey: #F0F2F2;
+}
+
+body, header {
+    font-family: sans-serif;
+
+}
+
+header {
+    background-color: var(--denim-blue);
+    height: 80px;
+    padding: 15px 30px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding-left: 20px;
+    color: var(--light-silver);
+    font-size: 19px;
+}
+
+header h1 {
+    background-color: var(--light-silver);
+    line-height: 60px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+
+figure {
+   
+    margin-bottom: 50px;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* height: 40vh; */
+
+}
+
+.background-wood {
+    background-image: url(/assets/images/wood-background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#mtb {
+    /* margin-right: 50px; */
+    padding-right: 50px;
+}
+
+.column-1 {
+    text-align: right;
+    width: 25%;
+    float: left;
+    padding: 5px 30px 65px 20px;
+}
+
+.column-2 {
+    border-left: solid black 2px;
+    width: 75%;
+    float: right;
+    padding-left: 20px;
+}
+
+main {
+    background-color: var(--light-grey);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-bottom: 30px;
+}
+
+#filler-project-1 {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    background-color: var(--denim-blue);
+}
+#filler-project-2 {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    background-color: var(--denim-blue);
+}
+#filler-project-3 {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    background-color: var(--denim-blue);
+}
+#filler-project-4 {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    background-color: var(--denim-blue);
+}
+#filler-project-5 {
+    padding: 20px 30px;
+    margin-bottom: 0px;
+    background-color: var(--denim-blue);
+}
+
+#column-2-contact {
+    text-align: center;
+    padding-bottom: 55px;
+    /* display: flex; */
+}
+.column-2 a {
+
+    margin-top: 20px;
+    margin-left: 24px;
+    font-size: 30px;
+    /* align-items:center;
+    justify-content: center; */
+}
+
+
+

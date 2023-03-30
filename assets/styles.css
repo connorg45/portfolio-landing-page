@@ -114,10 +114,7 @@ main {
     float: right;
 }
 
-
-
 @media only screen and (max-width: 992px) {
-    /* Set the max-height of the figure and mtb to 30% of the screen height */
     figure {
       max-height: 20vh;
     }
@@ -128,7 +125,6 @@ main {
   }
  
   @media only screen and (max-width: 600px) {
-    /* Set the max-height of the figure and mtb to 30% of the screen height */
     figure {
       max-height: 10vh;
     }
@@ -137,6 +133,7 @@ main {
       max-height: 5vh;
     }
   }
+
   @media screen and (max-width: 600px) {
     h1 {
       font-size: 20px; /* change the font size to 20px */

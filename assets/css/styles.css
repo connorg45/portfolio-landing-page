@@ -53,8 +53,7 @@ figure {
 }
 
 .background-wood {
-    background-image: url(./assets/images/wood-background.jpg);
-    
+    background-image: url(../images/wood-background.jpg);
     background-size: cover;
     background-position: center;
 

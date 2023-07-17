@@ -4,6 +4,9 @@
 
 Created a responsive landing page portfolio. Function links and contact me at the bottom of the page. Responsive for tablets and phones.
 
+## Portfolio Project Links
+[E-Commerce-Store](https://github.com/cverges1/e-commerce-store/tree/main)
+
 ## Installation
 
 N/A
